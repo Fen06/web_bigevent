@@ -57,3 +57,11 @@ $('#btnLogout').click(() => {
 
 //获取用户列表
 getUserInfo();
+function change() {
+  $('#change').addClass('layui-this').next().removeClass('layui-this');
+}
+
+// 定义渲染分页方法
+function renderPage(total) {
+  console.log(total);
+}
